@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/pinger",
+  "version": "1.1.8",
+  "description": "Pinger is a simple tool for checking if a URL is up. It returns a boolean value indicating whether the URL is up or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/pinger-API.git"
+  },
+  "keywords": [
+    "pinger","ping","ping api","ping tool","ping software"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/pinger-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/pinger?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.9"
+  }
+}
